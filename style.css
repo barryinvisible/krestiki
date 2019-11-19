@@ -1,0 +1,26 @@
+#game {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: cadetblue;
+}
+
+.passive {
+    background-color: cornflowerblue;
+}
+
+.hide {
+    visibility: hidden;
+}
