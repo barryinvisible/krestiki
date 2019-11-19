@@ -9,7 +9,7 @@ let result = document.getElementById('result'),
 document.getElementById('done').onclick = function() {
     document.querySelector('.gameWindow').classList.remove('hide');
     player1 = document.getElementById('player1').value;
-    player2 = document.getElementById('player1').value
+    player2 = document.getElementById('player2').value
 }
 
 document.getElementById('reload').onclick = function() {
